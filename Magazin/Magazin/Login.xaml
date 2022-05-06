@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Magazin.Login">
+    <StackLayout>
+        <Entry Placeholder="Username" />
+        <Entry Placeholder="Parola" />
+        <Button Text="Intregistrare" Clicked="OnInregClicked" BackgroundColor="Transparent"/>
+        <Button Text="Pagini" Clicked="OnPaginiClicked"/>
+    </StackLayout>
+</ContentPage>

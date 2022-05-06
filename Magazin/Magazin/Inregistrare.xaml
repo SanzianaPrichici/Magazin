@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Magazin.Inregistrare">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Inregistrati-va!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="txtmail" Placeholder="Mail" BindingContext="Mail"/>
+            <Entry x:Name="txtnume" Placeholder="Nume" BindingContext="Nume"/>
+            <Entry x:Name="txtprenume" Placeholder="Prenume" BindingContext="Prenume"/>
+            <Button Text="Salveaza" Clicked="OnButtonSave"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
